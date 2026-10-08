@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "id": "tell-me-about-yourself",
+      "category": "Recruiter",
+      "level": "Essencial",
+      "prompt": "Tell me about yourself.",
+      "guide": "Apresente seu perfil, especialidade, experiência e o tipo de desafio que procura.",
+      "framework": "Now → strengths → evidence → next step",
+      "sample": "I'm a software engineer focused on backend systems. I have experience building APIs and working with cloud infrastructure. I enjoy solving reliability problems, and I'm looking for a remote role where I can contribute to an international team."
+    },
+    {
+      "id": "why-remote",
+      "category": "Recruiter",
+      "level": "Essencial",
+      "prompt": "Why are you looking for a remote role with an international company?",
+      "guide": "Conecte colaboração global, autonomia e impacto; evite focar somente em benefícios pessoais.",
+      "framework": "Motivation → relevant experience → contribution",
+      "sample": "I enjoy working with distributed teams and communicating across time zones. I'm looking for a role where I can contribute to products used globally while continuing to grow as an engineer."
+    },
+    {
+      "id": "salary-expectations",
+      "category": "Recruiter",
+      "level": "Essencial",
+      "prompt": "What are your salary expectations?",
+      "guide": "Pratique uma faixa em USD e deixe espaço para alinhar responsabilidades e modelo de contratação.",
+      "framework": "Range → context → flexibility",
+      "sample": "Based on the scope of the role and my experience, I'm targeting a range of X to Y per month. I'm open to discussing the full compensation package and expectations."
+    },
+    {
+      "id": "disagreement",
+      "category": "Comportamental",
+      "level": "Intermediário",
+      "prompt": "Tell me about a time you disagreed with a teammate. How did you handle it?",
+      "guide": "Mostre escuta, critérios objetivos e como a equipe chegou a uma decisão.",
+      "framework": "STAR: Situation → Task → Action → Result",
+      "sample": "We disagreed about how to handle a database migration. I documented the risks of both approaches, asked for feedback, and proposed a small test. The results helped us choose a safer plan, and we completed the migration without downtime."
+    },
+    {
+      "id": "difficult-bug",
+      "category": "Comportamental",
+      "level": "Intermediário",
+      "prompt": "Tell me about a difficult bug you fixed. How did you find it?",
+      "guide": "Explique impacto, investigação, causa raiz, correção e resultado mensurável.",
+      "framework": "STAR + root cause",
+      "sample": "A payment service had intermittent delays. I added tracing around the queue consumer, reproduced the issue, and found that retries were creating extra load. We changed the retry policy and monitored the service; processing time returned to normal."
+    },
+    {
+      "id": "tight-deadline",
+      "category": "Comportamental",
+      "level": "Intermediário",
+      "prompt": "Describe a time you had to deliver under a very tight deadline.",
+      "guide": "Demonstre priorização, comunicação de riscos e entrega segura sem alegar que qualidade não importa.",
+      "framework": "Context → priorities → communication → outcome",
+      "sample": "We had to deliver a customer-facing fix before a release. I separated the required change from follow-up improvements, aligned the scope with the team, and added focused tests. We shipped the fix on time and scheduled the remaining work."
+    },
+    {
+      "id": "remote-async",
+      "category": "Comportamental",
+      "level": "Essencial",
+      "prompt": "How do you work in a remote or asynchronous team?",
+      "guide": "Fale sobre documentação clara, atualizações, decisões registradas e respeito a horários.",
+      "framework": "Communication habits → example → impact",
+      "sample": "I write updates with context, decisions, and next steps. I document important discussions and flag blockers early, so teammates can continue without waiting for a meeting."
+    },
+    {
+      "id": "learn-technology",
+      "category": "Comportamental",
+      "level": "Intermediário",
+      "prompt": "Tell me about a time you had to learn a new technology quickly.",
+      "guide": "Mostre como delimitou o problema, estudou o necessário e validou o aprendizado na prática.",
+      "framework": "Need → learning plan → application → outcome",
+      "sample": "I needed to work with a service I had not used before. I started with the official documentation, built a small proof of concept, and asked a teammate to review my design. I was able to deliver the feature and share the notes with the team."
+    },
+    {
+      "id": "async-await",
+      "category": ".NET / C#",
+      "level": "Avançado",
+      "prompt": "Explain how async/await works under the hood in C#.",
+      "guide": "Explique state machine, operações de I/O e por que async não significa criar uma thread para tudo.",
+      "framework": "Concept → execution flow → practical trade-off",
+      "sample": "The compiler transforms an async method into a state machine. When it awaits an incomplete task, the method yields and resumes when the operation completes. For I/O-bound work, this avoids blocking a thread while the operation is in progress."
+    },
+    {
+      "id": "ef-n-plus-one",
+      "category": ".NET / C#",
+      "level": "Avançado",
+      "prompt": "What causes an N+1 query problem in EF Core, and how do you fix it?",
+      "guide": "Descreva consultas repetidas, como detectar o padrão e opções como projeção ou carregamento explícito.",
+      "framework": "Problem → detection → solution → trade-off",
+      "sample": "The problem happens when loading a collection triggers an additional query for each item. I inspect the generated SQL and query count, then use a projection or an intentional include when appropriate. I also verify that the result size stays reasonable."
+    },
+    {
+      "id": "python-concurrency",
+      "category": "Python",
+      "level": "Avançado",
+      "prompt": "When would you use threads vs processes vs asyncio in Python?",
+      "guide": "Compare I/O-bound e CPU-bound, custo de processos e compatibilidade das bibliotecas.",
+      "framework": "Workload → option → trade-off",
+      "sample": "For I/O-bound tasks, threads or asyncio can improve concurrency, depending on the libraries involved. For CPU-bound work, processes can use multiple cores. I choose based on the workload and the complexity we can support."
+    },
+    {
+      "id": "aws-sqs-sns",
+      "category": "AWS / Cloud",
+      "level": "Intermediário",
+      "prompt": "What's the difference between SQS, SNS, and EventBridge?",
+      "guide": "Compare fila, publicação para múltiplos assinantes e roteamento de eventos por regras.",
+      "framework": "Definition → use case → design consideration",
+      "sample": "SQS is a queue that decouples producers and consumers. SNS distributes messages to multiple subscribers. EventBridge routes events based on rules and event patterns. I choose based on delivery, fan-out, and routing requirements."
+    },
+    {
+      "id": "terraform-state",
+      "category": "AWS / Cloud",
+      "level": "Intermediário",
+      "prompt": "How do you manage Terraform state and avoid drift across environments?",
+      "guide": "Mencione estado remoto, locking, revisão de plano e mudanças controladas.",
+      "framework": "State storage → collaboration → drift detection",
+      "sample": "I use a shared remote backend with locking and restricted access. Changes go through code review and a reviewed plan, and I run plans regularly to detect drift before applying changes."
+    },
+    {
+      "id": "system-design-url",
+      "category": "System design",
+      "level": "Avançado",
+      "prompt": "Design a URL shortener.",
+      "guide": "Comece por requisitos e escala antes de escolher banco, cache ou estratégia de IDs.",
+      "framework": "Requirements → estimates → API → data → architecture → trade-offs",
+      "sample": "I would clarify expected traffic, link lifetime, and analytics requirements first. Then I would define create and redirect APIs, choose a unique ID strategy, store the mapping, and add caching for popular links."
+    },
+    {
+      "id": "system-design-rate-limit",
+      "category": "System design",
+      "level": "Avançado",
+      "prompt": "Design a rate limiter for a public API.",
+      "guide": "Discuta identidade do cliente, algoritmo, armazenamento distribuído e comportamento em falha.",
+      "framework": "Requirements → algorithm → placement → failure modes",
+      "sample": "I would clarify whether limits are per user, API key, or IP. A token bucket can allow short bursts while enforcing an average rate. For multiple API instances, the counters need shared state or a gateway-level implementation."
+    },
+    {
+      "id": "live-coding",
+      "category": "Coding",
+      "level": "Intermediário",
+      "prompt": "Given an array of integers, find two numbers that add up to a target.",
+      "guide": "Pense em voz alta: esclareça restrições, proponha abordagem, explique Big-O e teste um exemplo.",
+      "framework": "Restate → clarify → approach + Big-O → code → test",
+      "sample": "I would clarify whether there can be duplicate values and whether the same element can be used twice. A hash map lets me check the complement in constant average time, so the time complexity is O(n)."
+    },
+    {
+      "id": "database-index",
+      "category": "Database / SQL",
+      "level": "Intermediário",
+      "prompt": "What are indexes, and how do they speed up queries?",
+      "guide": "Explique custo de escrita/armazenamento, seletividade e como validar com plano de execução.",
+      "framework": "How it works → benefit → cost → validation",
+      "sample": "An index helps the database find rows without scanning the whole table. It can improve reads, but it uses storage and adds work to writes. I check the query plan and workload before adding one."
+    },
+    {
+      "id": "questions-for-interviewer",
+      "category": "Encerramento",
+      "level": "Essencial",
+      "prompt": "What questions do you have for us?",
+      "guide": "Faça perguntas sobre sucesso inicial, colaboração, decisões técnicas, fuso horário e processo de entrega.",
+      "framework": "Team → role → success → collaboration",
+      "sample": "What would success look like in the first 90 days? How does the team handle asynchronous decisions and code reviews?"
+    },
+    {
+      "id": "clarify-question",
+      "category": "Speaking",
+      "level": "Essencial",
+      "prompt": "How do you ask an interviewer to repeat or clarify a question?",
+      "guide": "Treine frases de sobrevivência para ganhar tempo sem perder confiança.",
+      "framework": "Polite request → confirmation",
+      "sample": "Sorry, could you repeat that a bit slower? Just to make sure I understood, are you asking about…?"
+    }
+  ]
+}

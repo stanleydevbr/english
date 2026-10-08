@@ -1,0 +1,77 @@
+{
+  "columns": ["Presente", "Passado c/ tempo", "Passado s/ tempo", "Futuro", "Condicional"],
+  "verbs": [
+    {
+      "id": "be",
+      "base": "be",
+      "meaning": "ser / estar",
+      "type": "Irregular",
+      "note": "BE não usa DO/DOES/DID para perguntas ou negações: o próprio verbo muda de posição ou recebe not.",
+      "forms": [
+        ["I am", "I was", "I have been", "I will be", "I would be"],
+        ["I am not", "I was not", "I have not been", "I will not be", "I would not be"],
+        ["Am I…?", "Was I…?", "Have I been…?", "Will I be…?", "Would I be…?"]
+      ]
+    },
+    {
+      "id": "work",
+      "base": "work",
+      "meaning": "trabalhar",
+      "type": "Regular",
+      "note": "Verbo regular: passado e particípio work → worked. Com he/she/it, acrescente -s no presente simples.",
+      "forms": [
+        ["I work", "I worked", "I have worked", "I will work", "I would work"],
+        ["I do not work", "I did not work", "I have not worked", "I will not work", "I would not work"],
+        ["Do you work…?", "Did you work…?", "Have you worked…?", "Will you work…?", "Would you work…?"]
+      ]
+    },
+    {
+      "id": "go",
+      "base": "go",
+      "meaning": "ir",
+      "type": "Irregular",
+      "note": "go / went / gone. Depois de did, use a forma base: Did you go? — não “Did you went?”.",
+      "forms": [
+        ["I go", "I went", "I have gone", "I will go", "I would go"],
+        ["I do not go", "I did not go", "I have not gone", "I will not go", "I would not go"],
+        ["Do you go…?", "Did you go…?", "Have you gone…?", "Will you go…?", "Would you go…?"]
+      ]
+    },
+    {
+      "id": "speak",
+      "base": "speak",
+      "meaning": "falar",
+      "type": "Irregular",
+      "note": "speak / spoke / spoken. Use spoken depois de have/has; depois de did, use speak.",
+      "forms": [
+        ["I speak", "I spoke", "I have spoken", "I will speak", "I would speak"],
+        ["I do not speak", "I did not speak", "I have not spoken", "I will not speak", "I would not speak"],
+        ["Do you speak…?", "Did you speak…?", "Have you spoken…?", "Will you speak…?", "Would you speak…?"]
+      ]
+    },
+    {
+      "id": "have",
+      "base": "have",
+      "meaning": "ter",
+      "type": "Irregular",
+      "note": "Como verbo principal, HAVE usa do/does/did nas perguntas e negações; como auxiliar, inverte-se: Have you worked?",
+      "forms": [
+        ["I have", "I had", "I have had", "I will have", "I would have"],
+        ["I do not have", "I did not have", "I have not had", "I will not have", "I would not have"],
+        ["Do you have…?", "Did you have…?", "Have you had…?", "Will you have…?", "Would you have…?"]
+      ]
+    },
+    {
+      "id": "write",
+      "base": "write",
+      "meaning": "escrever",
+      "type": "Irregular",
+      "note": "write / wrote / written. A forma escrita aparece frequentemente em conversas sobre documentação e código.",
+      "forms": [
+        ["I write", "I wrote", "I have written", "I will write", "I would write"],
+        ["I do not write", "I did not write", "I have not written", "I will not write", "I would not write"],
+        ["Do you write…?", "Did you write…?", "Have you written…?", "Will you write…?", "Would you write…?"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "vocabulary": [
+    {
+      "id": "prep-in",
+      "term": "IN",
+      "meaning": "em, no, na, dentro",
+      "example": "I am in my home office.",
+      "translation": "Estou no meu escritório em casa.",
+      "category": "Preposições",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "prep-on",
+      "term": "ON",
+      "meaning": "em, sobre uma superfície",
+      "example": "The deployment is on Friday.",
+      "translation": "O deploy é na sexta-feira.",
+      "category": "Preposições",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "prep-at",
+      "term": "AT",
+      "meaning": "em, num ponto específico",
+      "example": "I am at the office.",
+      "translation": "Estou no escritório.",
+      "category": "Preposições",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "prep-for",
+      "term": "FOR",
+      "meaning": "para, por",
+      "example": "I am preparing for an interview.",
+      "translation": "Estou me preparando para uma entrevista.",
+      "category": "Preposições",
+      "topic": "Entrevistas",
+      "tier": 1
+    },
+    {
+      "id": "connector-although",
+      "term": "ALTHOUGH",
+      "meaning": "embora, apesar de",
+      "example": "Although the task was difficult, we shipped on time.",
+      "translation": "Embora a tarefa fosse difícil, entregamos no prazo.",
+      "category": "Conectores",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "quantifier-few",
+      "term": "FEW",
+      "meaning": "poucos / poucas (itens contáveis)",
+      "example": "We found a few edge cases.",
+      "translation": "Encontramos alguns casos extremos.",
+      "category": "Quantificadores",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "frequency-usually",
+      "term": "USUALLY",
+      "meaning": "geralmente",
+      "example": "I usually review pull requests in the morning.",
+      "translation": "Geralmente reviso pull requests de manhã.",
+      "category": "Frequência",
+      "topic": "Rotina",
+      "tier": 1
+    },
+    {
+      "id": "frequency-sometimes",
+      "term": "SOMETIMES",
+      "meaning": "às vezes",
+      "example": "Sometimes I work with distributed teams.",
+      "translation": "Às vezes trabalho com equipes distribuídas.",
+      "category": "Frequência",
+      "topic": "Rotina",
+      "tier": 1
+    },
+    {
+      "id": "question-where",
+      "term": "WHERE",
+      "meaning": "onde",
+      "example": "Where do you usually work from?",
+      "translation": "De onde você costuma trabalhar?",
+      "category": "Wh-questions",
+      "topic": "Entrevistas",
+      "tier": 1
+    },
+    {
+      "id": "question-why",
+      "term": "WHY",
+      "meaning": "por quê",
+      "example": "Why are you interested in this role?",
+      "translation": "Por que você tem interesse nesta vaga?",
+      "category": "Wh-questions",
+      "topic": "Entrevistas",
+      "tier": 1
+    },
+    {
+      "id": "pronoun-they",
+      "term": "THEY / THEIR",
+      "meaning": "eles / elas; deles / delas",
+      "example": "They shared their approach with the team.",
+      "translation": "Eles compartilharam a abordagem deles com a equipe.",
+      "category": "Pronomes",
+      "topic": "Trabalho",
+      "tier": 1
+    },
+    {
+      "id": "time-yesterday",
+      "term": "YESTERDAY",
+      "meaning": "ontem",
+      "example": "I fixed the issue yesterday.",
+      "translation": "Corrigi o problema ontem.",
+      "category": "Expressões de tempo",
+      "topic": "Rotina",
+      "tier": 1
+    },
+    {
+      "id": "time-ever",
+      "term": "EVER",
+      "meaning": "alguma vez (em perguntas)",
+      "example": "Have you ever used Terraform?",
+      "translation": "Você já usou Terraform alguma vez?",
+      "category": "Frequência",
+      "topic": "Entrevistas",
+      "tier": 1
+    },
+    {
+      "id": "job-engineer",
+      "term": "SOFTWARE ENGINEER",
+      "meaning": "engenheiro(a) de software",
+      "example": "I am a software engineer with seven years of experience.",
+      "translation": "Sou engenheiro(a) de software com sete anos de experiência.",
+      "category": "Profissões",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "job-team",
+      "term": "TEAMMATE",
+      "meaning": "colega de equipe",
+      "example": "I paired with a teammate to find the bug.",
+      "translation": "Trabalhei em dupla com um colega para encontrar o bug.",
+      "category": "Trabalho",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "tech-deploy",
+      "term": "DEPLOY",
+      "meaning": "implantar / disponibilizar uma versão",
+      "example": "We deployed the new API without downtime.",
+      "translation": "Implantamos a nova API sem indisponibilidade.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 2
+    },
+    {
+      "id": "tech-issue",
+      "term": "ISSUE",
+      "meaning": "problema, falha ou questão",
+      "example": "I traced the issue to a database timeout.",
+      "translation": "Rastreei o problema até um timeout no banco de dados.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 2
+    },
+    {
+      "id": "tech-scalable",
+      "term": "SCALABLE",
+      "meaning": "escalável",
+      "example": "We designed a scalable event-processing system.",
+      "translation": "Projetamos um sistema escalável de processamento de eventos.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 2
+    },
+    {
+      "id": "tech-reliable",
+      "term": "RELIABLE",
+      "meaning": "confiável",
+      "example": "Monitoring helped us build a more reliable service.",
+      "translation": "O monitoramento nos ajudou a criar um serviço mais confiável.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 2
+    },
+    {
+      "id": "star-ownership",
+      "term": "TAKE OWNERSHIP",
+      "meaning": "assumir responsabilidade",
+      "example": "I took ownership of the migration from planning to release.",
+      "translation": "Assumi a responsabilidade pela migração, do planejamento à entrega.",
+      "category": "Entrevistas",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "star-deadline",
+      "term": "TIGHT DEADLINE",
+      "meaning": "prazo apertado",
+      "example": "We delivered a safe fix under a tight deadline.",
+      "translation": "Entregamos uma correção segura com um prazo apertado.",
+      "category": "Entrevistas",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "phrase-think-aloud",
+      "term": "LET ME THINK OUT LOUD",
+      "meaning": "deixe-me explicar meu raciocínio em voz alta",
+      "example": "Let me think out loud while I compare these approaches.",
+      "translation": "Deixe-me explicar meu raciocínio enquanto comparo estas abordagens.",
+      "category": "Frases úteis",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "phrase-repeat",
+      "term": "COULD YOU REPEAT THAT?",
+      "meaning": "você poderia repetir?",
+      "example": "Sorry, could you repeat that a bit slower?",
+      "translation": "Desculpe, poderia repetir um pouco mais devagar?",
+      "category": "Frases úteis",
+      "topic": "Entrevistas",
+      "tier": 1
+    },
+    {
+      "id": "phrase-approach",
+      "term": "I WOULD APPROACH IT THIS WAY",
+      "meaning": "eu abordaria isso desta forma",
+      "example": "I would approach it this way: first, clarify the requirements.",
+      "translation": "Eu abordaria isso desta forma: primeiro, esclarecer os requisitos.",
+      "category": "Frases úteis",
+      "topic": "Entrevistas",
+      "tier": 2
+    },
+    {
+      "id": "tech-latency",
+      "term": "LATENCY",
+      "meaning": "latência, tempo de resposta",
+      "example": "We reduced API latency by optimizing the database query.",
+      "translation": "Reduzimos a latência da API otimizando a consulta ao banco de dados.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 3
+    },
+    {
+      "id": "tech-throughput",
+      "term": "THROUGHPUT",
+      "meaning": "vazão, volume processado por período",
+      "example": "The queue increased throughput during peak traffic.",
+      "translation": "A fila aumentou a vazão durante o pico de tráfego.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 3
+    },
+    {
+      "id": "tech-tradeoff",
+      "term": "TRADE-OFF",
+      "meaning": "compensação entre vantagens e desvantagens",
+      "example": "There is a trade-off between consistency and availability.",
+      "translation": "Existe uma compensação entre consistência e disponibilidade.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 3
+    },
+    {
+      "id": "tech-root-cause",
+      "term": "ROOT CAUSE",
+      "meaning": "causa raiz",
+      "example": "We found the root cause by tracing the request across services.",
+      "translation": "Encontramos a causa raiz rastreando a requisição entre os serviços.",
+      "category": "Tecnologia",
+      "topic": "Trabalho",
+      "tier": 3
+    }
+  ]
+}

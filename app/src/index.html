@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5f0">
+    <meta name="description" content="Treino diário de inglês para entrevistas e trabalho remoto em tecnologia.">
+    <title>English Lab — prática diária para devs</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="English Lab, início">
+        <span class="brand__mark" aria-hidden="true">E</span>
+        <span>english<span class="brand__light">lab</span></span>
+      </a>
+      <div class="topbar__right">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span class="topbar__caption">Seu treino de inglês para tech</span>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">◐</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Navegação principal">
+        <p class="eyebrow sidebar__label">ESPAÇO DE ESTUDO</p>
+        <nav class="nav-list">
+          <button class="nav-item is-active" type="button" data-view="home" aria-current="page"><span>⌂</span> Visão geral</button>
+          <button class="nav-item" type="button" data-view="vocabulary"><span>Aa</span> Vocabulário <span class="nav-item__count" id="due-count">0</span></button>
+          <button class="nav-item" type="button" data-view="formula"><span>ƒx</span> Fórmula verbal</button>
+          <button class="nav-item" type="button" data-view="drills"><span>↗</span> Drills</button>
+          <button class="nav-item" type="button" data-view="interviews"><span>◎</span> Entrevistas</button>
+          <button class="nav-item" type="button" data-view="progress"><span>▥</span> Progresso</button>
+        </nav>
+        <div class="sidebar__note">
+          <span class="sidebar__note-icon" aria-hidden="true">✳</span>
+          <p><strong>Pequenos passos.</strong><br>Consistência vence intensidade.</p>
+          <span class="sidebar__note-meta">ROTINA DE 10 MIN</span>
+        </div>
+        <p class="sidebar__version">ENGLISH LAB <span>·</span> ESTUDO LOCAL</p>
+      </aside>
+
+      <main class="main-content" id="main-content">
+        <div id="app" tabindex="-1" aria-live="polite"></div>
+        <div class="toast-region" id="app-notice" role="status" aria-live="polite" hidden></div>
+      </main>
+    </div>
+    <footer class="mobile-footer">
+      <p>Feito para praticar, não apenas ler. <span>Bom estudo!</span></p>
+    </footer>
+  </body>
+</html>

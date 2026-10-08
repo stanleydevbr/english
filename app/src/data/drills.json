@@ -1,0 +1,196 @@
+{
+  "drills": [
+    {
+      "id": "translate-software-engineer",
+      "kind": "Tradução",
+      "prompt": "Eu sou engenheiro(a) de software.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["I am a software engineer."],
+      "explanation": "Use “a” antes de uma profissão singular."
+    },
+    {
+      "id": "translate-remote-work",
+      "kind": "Tradução",
+      "prompt": "Ela trabalha remotamente de São Paulo.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["She works remotely from São Paulo."],
+      "explanation": "No presente simples, he/she/it recebe -s: works."
+    },
+    {
+      "id": "translate-yesterday",
+      "kind": "Tradução",
+      "prompt": "Nós terminamos o deploy ontem.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["We finished the deployment yesterday.", "We finished the deploy yesterday."],
+      "explanation": "“Yesterday” indica passado com tempo definido: finished."
+    },
+    {
+      "id": "translate-ever",
+      "kind": "Tradução",
+      "prompt": "Você já usou Terraform?",
+      "instruction": "Traduza usando ever.",
+      "answers": ["Have you ever used Terraform?"],
+      "explanation": "Pergunta sobre experiência: Have + sujeito + ever + particípio."
+    },
+    {
+      "id": "translate-meetings",
+      "kind": "Tradução",
+      "prompt": "Ele não gosta de reuniões longas.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["He does not like long meetings.", "He doesn't like long meetings."],
+      "explanation": "Use does not + verbo na forma base com he/she/it."
+    },
+    {
+      "id": "translate-experience",
+      "kind": "Tradução",
+      "prompt": "Eu tenho sete anos de experiência com .NET.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["I have seven years of experience with .NET.", "I have 7 years of experience with .NET."],
+      "explanation": "Para duração de experiência, “I have … years of experience” é natural."
+    },
+    {
+      "id": "translate-office",
+      "kind": "Tradução",
+      "prompt": "Onde fica o escritório?",
+      "instruction": "Forme a pergunta em inglês.",
+      "answers": ["Where is the office?"],
+      "explanation": "Com BE, inverta verbo e sujeito: Where + is + the office?"
+    },
+    {
+      "id": "translate-team-size",
+      "kind": "Tradução",
+      "prompt": "Quantas pessoas há na sua equipe?",
+      "instruction": "Forme a pergunta em inglês.",
+      "answers": ["How many people are there on your team?", "How many people are there in your team?"],
+      "explanation": "Use how many com substantivos contáveis, como people."
+    },
+    {
+      "id": "translate-abroad",
+      "kind": "Tradução",
+      "prompt": "Por que você quer trabalhar no exterior?",
+      "instruction": "Forme a pergunta em inglês.",
+      "answers": ["Why do you want to work abroad?"],
+      "explanation": "No presente simples, use Why + do + sujeito + verbo base."
+    },
+    {
+      "id": "translate-tomorrow",
+      "kind": "Tradução",
+      "prompt": "Eu trabalharei nisso amanhã.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["I will work on it tomorrow."],
+      "explanation": "Use will + verbo base para o futuro."
+    },
+    {
+      "id": "translate-kafka",
+      "kind": "Tradução",
+      "prompt": "Eu nunca trabalhei com Kafka.",
+      "instruction": "Traduza para o inglês.",
+      "answers": ["I have never worked with Kafka."],
+      "explanation": "Use have + never + particípio para falar de experiência até agora."
+    },
+    {
+      "id": "translate-whose",
+      "kind": "Tradução",
+      "prompt": "De quem é esse código?",
+      "instruction": "Use whose.",
+      "answers": ["Whose code is this?"],
+      "explanation": "Whose indica posse e vem antes do substantivo."
+    },
+    {
+      "id": "wh-where",
+      "kind": "Wh-question",
+      "prompt": "Resposta: “I am from Brazil.”",
+      "instruction": "Pergunte sobre o lugar de origem.",
+      "answers": ["Where are you from?"],
+      "explanation": "Where pergunta sobre lugar. Com BE: Where + are + you + from?"
+    },
+    {
+      "id": "wh-when",
+      "kind": "Wh-question",
+      "prompt": "Resposta: “I started coding in 2018.”",
+      "instruction": "Pergunte quando a pessoa começou a programar.",
+      "answers": ["When did you start coding?"],
+      "explanation": "Com did, o verbo principal volta à forma base: start."
+    },
+    {
+      "id": "wh-who",
+      "kind": "Wh-question",
+      "prompt": "Resposta: “I work with a team of six engineers.”",
+      "instruction": "Pergunte com quem a pessoa trabalha.",
+      "answers": ["Who do you work with?"],
+      "explanation": "Use do + sujeito + verbo base no presente simples."
+    },
+    {
+      "id": "wh-which",
+      "kind": "Wh-question",
+      "prompt": "Resposta: “I prefer the second option.”",
+      "instruction": "Pergunte qual opção a pessoa prefere.",
+      "answers": ["Which option do you prefer?"],
+      "explanation": "Which é usado quando há um conjunto limitado de opções."
+    },
+    {
+      "id": "wh-how-many",
+      "kind": "Wh-question",
+      "prompt": "Resposta: “I have ten years of experience.”",
+      "instruction": "Pergunte quantos anos de experiência a pessoa tem.",
+      "answers": ["How many years of experience do you have?"],
+      "explanation": "Years é contável: use how many."
+    },
+    {
+      "id": "correct-did-spoke",
+      "kind": "Corrija a frase",
+      "prompt": "Did you spoke with the hiring manager?",
+      "instruction": "Corrija o erro de conjugação.",
+      "answers": ["Did you speak with the hiring manager?", "Did you speak with the manager?"],
+      "explanation": "Depois de did, use o verbo na forma base: speak."
+    },
+    {
+      "id": "correct-he-dont",
+      "kind": "Corrija a frase",
+      "prompt": "He don't like long meetings.",
+      "instruction": "Corrija a frase.",
+      "answers": ["He doesn't like long meetings.", "He does not like long meetings."],
+      "explanation": "Na 3ª pessoa do singular, use doesn't/does not."
+    },
+    {
+      "id": "correct-have-see",
+      "kind": "Corrija a frase",
+      "prompt": "I have see this issue before.",
+      "instruction": "Corrija o particípio.",
+      "answers": ["I have seen this issue before."],
+      "explanation": "O particípio de see é seen: see / saw / seen."
+    },
+    {
+      "id": "correct-will-comes",
+      "kind": "Corrija a frase",
+      "prompt": "She will not comes tomorrow.",
+      "instruction": "Corrija a frase.",
+      "answers": ["She will not come tomorrow.", "She won't come tomorrow."],
+      "explanation": "Depois de will/won't, use a forma base do verbo."
+    },
+    {
+      "id": "correct-we-was",
+      "kind": "Corrija a frase",
+      "prompt": "We was at the office yesterday.",
+      "instruction": "Corrija o verbo BE no passado.",
+      "answers": ["We were at the office yesterday."],
+      "explanation": "Com we, use were no passado de BE."
+    },
+    {
+      "id": "correct-did-go",
+      "kind": "Corrija a frase",
+      "prompt": "Did you went to the client meeting?",
+      "instruction": "Corrija o verbo após did.",
+      "answers": ["Did you go to the client meeting?"],
+      "explanation": "Depois de did, use go, não went."
+    },
+    {
+      "id": "correct-present-perfect",
+      "kind": "Corrija a frase",
+      "prompt": "She has wrote the technical documentation.",
+      "instruction": "Corrija o particípio.",
+      "answers": ["She has written the technical documentation."],
+      "explanation": "O particípio de write é written: write / wrote / written."
+    }
+  ]
+}
